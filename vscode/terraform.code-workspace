@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "uri": "vscode-remote://ssh-remote+terraform/home/vagrant/git"
+    }
+  ],
+  "remoteAuthority": "ssh-remote+terraform",
+  "settings": {
+    "yaml.format.enable": true,
+    "recommendations": [
+      "ms-vscode-remote.remote-ssh",
+      "tomaciazek.ansible"
+    ],
+    "remote.SSH.defaultExtensions": [
+      "dbaeumer.vscode-eslint",
+      "davidanson.vscode-markdownlint",
+      "eamodio.gitlens",
+      "foxundermoon.shell-format",
+      "hashicorp.terraform",
+      "ms-azuretools.vscode-docker",
+      "redhat.vscode-yaml",
+      "timonwong.shellcheck",
+      "tomaciazek.ansible",
+      "yzhang.markdown-all-in-one"
+    ],
+    "remote.extensionKind": {
+      "davidanson.vscode-markdownlint": "workspace",
+      "dbaeumer.vscode-eslint": "workspace",
+      "eamodio.gitlens": "workspace",
+      "foxundermoon.shell-format": "workspace",
+      "ms-azuretools.vscode-docker": "workspace",
+      "hashicorp.terraform": "workspace",
+      "redhat.vscode-yaml": "workspace",
+      "timonwong.shellcheck": "workspace",
+      "tomaciazek.ansible": "workspace",
+      "yzhang.markdown-all-in-one": "workspace"
+    }
+  }
+}
